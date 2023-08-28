@@ -73,7 +73,15 @@
 }
 .contactus-text02 {
   color: var(--dl-color-scheme-white);
+  font-size: 14px;
+  font-style: normal;
+  font-family: Urbanist;
+  font-weight: 800;
+  line-height: 1.15;
   margin-bottom: var(--dl-space-space-unit);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .contactus-text03 {
   color: var(--dl-color-scheme-yellow80);
@@ -254,6 +262,17 @@
 .contactus-icon6 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+}
+@media(max-width: 1600px) {
+  .contactus-title {
+    color: var(--dl-color-scheme-white);
+    font-size: 24px;
+    font-style: normal;
+    font-family: Urbanist;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+  }
 }
 @media(max-width: 991px) {
   .contactus-max-width1 {
